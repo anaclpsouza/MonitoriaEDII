@@ -1,0 +1,8 @@
+7
+ADD Mara Jade Skywalkes 
+ADD Mara Jade 
+GET Mara Jade Solo 
+ADD Mara 
+ADD Corran Horn 
+GET Corran 
+GET Mara

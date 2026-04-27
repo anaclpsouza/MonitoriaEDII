@@ -1,0 +1,12 @@
+11
+ADD Shaak Ti
+ADD Saesee Tiin
+ADD Satele Shan
+ADD Ki-Adi-Mundi
+ADD Kit Fisto
+ADD Luke Skywalker
+GET Sergius
+GET Kit Fisto
+GET Katarn
+GET Lando
+GET Yoda
