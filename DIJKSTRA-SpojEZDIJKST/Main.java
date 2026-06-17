@@ -26,9 +26,12 @@ public class Main {
             int destino = sc.nextInt();
             
             int[] dist = new int[v + 1];
+            int[] rota = new int[v + 1];
             boolean[] visitado = new boolean[v + 1];
             Arrays.fill(dist, Integer.MAX_VALUE);
+            Arrays.fill(rota, 0);
             dist[origem] = 0;
+            rota[origem] = -1;
             
             for (int i = 1; i <= v; i++) {
                 int u = -1;
@@ -49,6 +52,7 @@ public class Main {
                     int peso = vizinho[1];
                     if (!visitado[nxt] && dist[u] + peso < dist[nxt]) {
                         dist[nxt] = dist[u] + peso;
+                        rota[nxt] = u;
                     }
                 }
             }
