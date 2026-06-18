@@ -15,6 +15,8 @@ public class Main {
 
     static final int INF = 999999999;
 
+    // Atenção!! Essa implementação do Dijkstra não é aceita pelo beecrowd, por conta do limite de tempo de execução, mas resolve o problema corretamente.
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
